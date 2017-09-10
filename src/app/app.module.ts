@@ -6,13 +6,15 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { RouterModule } from '@angular/router';
 import { MyRoutingModule } from "app/router";
+import { ForgotPassComponent } from './forgot-pass/forgot-pass.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    ForgotPassComponent
   ],
   imports: [
     BrowserModule,
