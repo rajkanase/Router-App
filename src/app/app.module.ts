@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { RouterModule } from '@angular/router';
 import { MyRoutingModule } from "app/router";
 import { ForgotPassComponent } from './forgot-pass/forgot-pass.component';
+import { DashComponent } from './dash/dash.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ForgotPassComponent } from './forgot-pass/forgot-pass.component';
     AppComponent,
     RegisterComponent,
     LoginComponent,
-    ForgotPassComponent
+    ForgotPassComponent,
+    DashComponent
   ],
   imports: [
     BrowserModule,
